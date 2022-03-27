@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "json": "^11.0.0",
+    "mongoose": "^6.2.8",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "project-9",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviranjan9/login-signup-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raviranjan9/login-signup-page/issues"
+  },
+  "homepage": "https://github.com/raviranjan9/login-signup-page#readme",
+  "description": ""
+}

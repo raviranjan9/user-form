@@ -1,0 +1,38 @@
+<html lang="en">
+  {{>header}}
+  <body>
+    {{>navbar}}
+    <section id="login">
+      <div class="container">
+        <div class="form-container">
+          <form action="/index" method="POST" id="form">
+            <div class="form-group">
+              <label for="email" class="form-control">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password" class="form-control">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Sign In" class="btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
